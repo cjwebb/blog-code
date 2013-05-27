@@ -14,6 +14,6 @@ class StackSpecWithOneAssertion extends FlatSpec with ShouldMatchers {
 
       valuesPopped.update(0, 5) // to fail the test
 
-      withClue("values popped from stack: ") { valuesPopped should be (valuesToPush.reverse) }
+      withClue("order of values popped from stack: ") { valuesPopped should be (valuesToPush.reverse) }
     }
 }
