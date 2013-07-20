@@ -1,4 +1,4 @@
-name := "acceptance-testing-scala-with-dsls"
+name := "testing-scala-with-dsls"
 
 version := "1.0"
 
